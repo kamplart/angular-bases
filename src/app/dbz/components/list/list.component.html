@@ -4,6 +4,7 @@
 
     <li *ngFor="
     let dato of characterList;
+
     let i = index;
     let isFirst = first;
     let isLast = last;
@@ -27,7 +28,7 @@
       <!-- <span class="text-error" > Es par: {{isEven}}</span> -->
       <!-- <span class="text-primary" > Es impar: {{isOdd}}</span> -->
 </div>
-      <button (click)="onDeleteId(i)" class="btn btn-danger">X</button>
+      <button (click)="onDeleteCharacter(dato.id || '')" class="btn btn-danger">X</button>
 
     </li>
 

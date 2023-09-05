@@ -45,23 +45,23 @@ export class DbzService {
     console.log(this.characters);
   }
 
-  /*
+  
   deleteCharacterById(  id: string): void {
 
     this.characters = this.characters.filter( Character => Character.id !== id);
     console.log('delete:: '+id);
     console.log(this.characters);
   }
-  */
 
 
 
+/*
   deleteCharacter(  miId: number): void {
 
     this.characters.splice( miId,1);
     console.log('delete:: '+miId);
     console.log(this.characters);
   }
-  
+*/
 
 }
